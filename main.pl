@@ -24,8 +24,7 @@ print "Transcripcion finalizada!\n";
 
 sub to_fasta {
 
-    my ($origin) = $_[0];
-    my ($frame) = $_[1];
+    my ($origin, $frame) = @_;
 
     my $result_file_name = substr($origin, 0, -3)."_frame_".$frame.".fsa";
 
