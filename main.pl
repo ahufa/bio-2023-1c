@@ -26,7 +26,7 @@ sub to_fasta {
     
     my ($origin, $frame) = @_;
 
-    my $origin_sequence = get_secuense_from_genbank($_[0]);
+    my $origin_sequence = get_secuense_from_genbank($origin);
     my $rev_sequence = $origin_sequence->revcom;
 
     my $result_file_name = substr($origin, 0, -3)."_frame_".$frame;
