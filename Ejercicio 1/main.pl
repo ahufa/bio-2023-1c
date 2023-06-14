@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w 
 
 use Bio::SeqIO;
+use File::Path;
 
 if (scalar(@ARGV) == 0) {
     print "No se pasaron argumentos al programa!\n";
@@ -14,6 +15,8 @@ foreach my $i(0 .. $#ARGV) {
     }
 }
 
+create_dir();
+
 foreach my $i(0 .. $#ARGV) {
     foreach my $frame(0 .. 2) {
         to_fasta($ARGV[$i], $frame)
@@ -21,6 +24,17 @@ foreach my $i(0 .. $#ARGV) {
 }
 
 print "Transcripcion finalizada!\n";
+
+sub create_dir {
+
+    my $folder_path = "result";
+
+    if (-e $folder_path && -d $folder_path) {
+        File::Path::remove_tree($folder_path, { keep_root => 1 });
+    } else {
+        File::Path::make_path($folder_path);
+    }
+}
 
 sub to_fasta {
     
@@ -49,7 +63,7 @@ sub save_sequence_to_fasta {
     my ($secuence, $frame, $result_name) = @_;
 
     my $translated = $secuence->translate(-frame => $frame);
-    my $output = Bio::SeqIO->new(-file => ">$result_name.fsa", -format => 'fasta');
+    my $output = Bio::SeqIO->new(-file => ">result/$result_name.fsa", -format => 'fasta');
 
     $output->write_seq($translated);
 }
