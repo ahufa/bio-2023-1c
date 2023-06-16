@@ -15,7 +15,7 @@ foreach my $i(0 .. $#ARGV) {
     }
 }
 
-create_dir();
+system("sh ../Utils/create_dir_result.sh");
 
 foreach my $i(0 .. $#ARGV) {
     foreach my $frame(0 .. 2) {
@@ -25,28 +25,23 @@ foreach my $i(0 .. $#ARGV) {
 
 print "Transcripcion finalizada!\n";
 
-sub create_dir {
-
-    my $folder_path = "result";
-
-    if (-e $folder_path && -d $folder_path) {
-        File::Path::remove_tree($folder_path, { keep_root => 1 });
-    } else {
-        File::Path::make_path($folder_path);
-    }
-}
-
 sub to_fasta {
-    
+
     my ($origin, $frame) = @_;
 
     my $origin_sequence = get_secuense_from_genbank($origin);
     my $rev_sequence = $origin_sequence->revcom;
 
+    my $result_dir_name = "result/";
     my $result_file_name = substr($origin, 0, -3)."_frame_".$frame;
 
-    save_sequence_to_fasta($origin_sequence, $frame, $result_file_name);
-    save_sequence_to_fasta($rev_sequence, $frame, $result_file_name."_rev");
+    if (scalar(@ARGV) > 1) {
+        $result_dir_name = $result_dir_name.substr($origin, 0, -3);
+        File::Path::make_path($result_dir_name);
+    }
+
+    save_sequence_to_fasta($origin_sequence, $frame, $result_dir_name, $result_file_name);
+    save_sequence_to_fasta($rev_sequence, $frame, $result_dir_name, $result_file_name."_rev");
 }
 
 sub get_secuense_from_genbank {
@@ -60,10 +55,10 @@ sub get_secuense_from_genbank {
 
 sub save_sequence_to_fasta {
 
-    my ($secuence, $frame, $result_name) = @_;
+    my ($secuence, $frame, $result_dir_name, $result_file_name) = @_;
 
     my $translated = $secuence->translate(-frame => $frame);
-    my $output = Bio::SeqIO->new(-file => ">result/$result_name.fsa", -format => 'fasta');
+    my $output = Bio::SeqIO->new(-file => ">$result_dir_name/$result_file_name.fsa", -format => 'fasta');
 
     $output->write_seq($translated);
 }
