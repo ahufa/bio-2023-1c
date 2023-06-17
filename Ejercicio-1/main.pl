@@ -15,7 +15,7 @@ foreach my $i(0 .. $#ARGV) {
     }
 }
 
-system("sh ../Utils/create_dir_result.sh");
+File::Path::make_path("result");
 
 foreach my $i(0 .. $#ARGV) {
     foreach my $frame(0 .. 2) {

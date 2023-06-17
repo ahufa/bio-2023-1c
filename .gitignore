@@ -1,3 +1,4 @@
 .idea
 ncbi-blast-2.14.0+/
-db
+database
+result
