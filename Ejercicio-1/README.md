@@ -16,7 +16,7 @@ aminoácidos)
 ## Ejecucion
 
 ```sh
-perl main.pl sequence.gb
+perl main.pl sequence.gb sequence2.gb sequence3.gb sequence4.gb
 ```
 
 ## Resultados

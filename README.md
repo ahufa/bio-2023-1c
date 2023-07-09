@@ -3,8 +3,8 @@
 ## Integrantes del equipo
 
 	- Facundo Ahumada
-    - Cristian
-    - Agustin
+    - Cristian Eguez
+    - Agustin Ricardo Luna
 
 ## Requisitos
 
