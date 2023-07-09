@@ -1,0 +1,241 @@
+LOCUS       NM_001302085            1887 bp    mRNA    linear   ROD 18-DEC-2022
+DEFINITION  Mus musculus uroporphyrinogen III synthase (Uros), transcript
+            variant 1, mRNA.
+ACCESSION   NM_001302085 XM_006507581
+VERSION     NM_001302085.1
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 1887)
+  AUTHORS   Lefebvre T, Millot S, Richard E, Blouin JM, Lalanne M,
+            Lamrissi-Garcia I, Costet P, Lyoumi S, Gouya L, Puy H,
+            Moreau-Gaudry F, de Verneuil H, Karim Z and Ged C.
+  TITLE     Genetic background influences hepcidin response to iron imbalance
+            in a mouse model of hemolytic anemia (Congenital erythropoietic
+            porphyria)
+  JOURNAL   Biochem Biophys Res Commun 520 (2), 297-303 (2019)
+   PUBMED   31601421
+REFERENCE   2  (bases 1 to 1887)
+  AUTHORS   Urquiza P, Lain A, Sanz-Parra A, Moreno J, Bernardo-Seisdedos G,
+            Dubus P, Gonzalez E, Gutierrez-de-Juan V, Garcia S, Erana H, San
+            Juan I, Macias I, Ben Bdira F, Pluta P, Ortega G, Oyarzabal J,
+            Gonzalez-Muniz R, Rodriguez-Cuesta J, Anguita J, Diez E, Blouin JM,
+            de Verneuil H, Mato JM, Richard E, Falcon-Perez JM, Castilla J and
+            Millet O.
+  TITLE     Repurposing ciclopirox as a pharmacological chaperone in a model of
+            congenital erythropoietic porphyria
+  JOURNAL   Sci Transl Med 10 (459) (2018)
+   PUBMED   30232228
+REFERENCE   3  (bases 1 to 1887)
+  AUTHORS   Bishop DF, Clavero S, Mohandas N and Desnick RJ.
+  TITLE     Congenital erythropoietic porphyria: characterization of murine
+            models of the severe common (C73R/C73R) and later-onset genotypes
+  JOURNAL   Mol Med 17 (7-8), 748-756 (2011)
+   PUBMED   21365124
+  REMARK    GeneRIF: Data show that in adult UROS C73R mice, spleen and liver
+            weights were 8.2- and 1.5-fold increased, respectively.
+REFERENCE   4  (bases 1 to 1887)
+  AUTHORS   Robert-Richard E, Moreau-Gaudry F, Lalanne M, Lamrissi-Garcia I,
+            Cario-Andre M, Guyonnet-Duperat V, Taine L, Ged C and de Verneuil
+            H.
+  TITLE     Effective gene therapy of mice with congenital erythropoietic
+            porphyria is facilitated by a survival advantage of corrected
+            erythroid cells
+  JOURNAL   Am J Hum Genet 82 (1), 113-124 (2008)
+   PUBMED   18179890
+REFERENCE   5  (bases 1 to 1887)
+  AUTHORS   Bishop DF, Johansson A, Phelps R, Shady AA, Ramirez MC, Yasuda M,
+            Caro A and Desnick RJ.
+  TITLE     Uroporphyrinogen III synthase knock-in mice have the human
+            congenital erythropoietic porphyria phenotype, including the
+            characteristic light-induced cutaneous lesions
+  JOURNAL   Am J Hum Genet 78 (4), 645-658 (2006)
+   PUBMED   16532394
+REFERENCE   6  (bases 1 to 1887)
+  AUTHORS   Ged C, Mendez M, Robert E, Lalanne M, Lamrissi-Garcia I, Costet P,
+            Daniel JY, Dubus P, Mazurier F, Moreau-Gaudry F and de Verneuil H.
+  TITLE     A knock-in mouse model of congenital erythropoietic porphyria
+  JOURNAL   Genomics 87 (1), 84-92 (2006)
+   PUBMED   16314073
+REFERENCE   7  (bases 1 to 1887)
+  AUTHORS   Mootha VK, Bunkenborg J, Olsen JV, Hjerrild M, Wisniewski JR, Stahl
+            E, Bolouri MS, Ray HN, Sihag S, Kamal M, Patterson N, Lander ES and
+            Mann M.
+  TITLE     Integrated analysis of protein composition, tissue diversity, and
+            gene regulation in mouse mitochondria
+  JOURNAL   Cell 115 (5), 629-640 (2003)
+   PUBMED   14651853
+REFERENCE   8  (bases 1 to 1887)
+  AUTHORS   Aizencang GI, Bishop DF, Forrest D, Astrin KH and Desnick RJ.
+  TITLE     Uroporphyrinogen III synthase. An alternative promoter controls
+            erythroid-specific expression in the murine gene
+  JOURNAL   J Biol Chem 275 (4), 2295-2304 (2000)
+   PUBMED   10644678
+REFERENCE   9  (bases 1 to 1887)
+  AUTHORS   Xu W, Kozak CA and Desnick RJ.
+  TITLE     Uroporphyrinogen-III synthase: molecular cloning, nucleotide
+            sequence, expression of a mouse full-length cDNA, and its
+            localization on mouse chromosome 7
+  JOURNAL   Genomics 26 (3), 556-562 (1995)
+   PUBMED   7607680
+REFERENCE   10 (bases 1 to 1887)
+  AUTHORS   Bensidhoum M, Ged CM, Poirier C, Guenet JL and de Verneuil H.
+  TITLE     The cDNA sequence of mouse uroporphyrinogen III synthase and
+            assignment to mouse chromosome 7
+  JOURNAL   Mamm Genome 5 (11), 728-730 (1994)
+   PUBMED   7873885
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC127348.4, AK148116.1,
+            AK145902.1, BC068161.1 and AI839008.1.
+            
+            On Sep 27, 2014 this sequence version replaced XM_006507581.1.
+            
+            Summary: The protein encoded by this gene is the fourth enzyme in
+            the heme biosynthesis pathway. It converts hydroxymethylbilane to
+            uroporphyrinogen III, a cyclic tetrapyrrole. This enzyme is
+            defective in the autosomal recessive disorder congenital
+            erythropoietic porphyria. Alternate promoter usage controls cell
+            type-specific expression, including erythroid cell-specific
+            expression. Alternative splicing results in multiple transcript
+            variants encoding different isoforms. [provided by RefSeq, Sep
+            2014].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript and encodes the longer isoform (1). Variants 1, 2, 4,
+            and 5 all encode the same isoform (1).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: U18867.2, U16216.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMN01164131, SAMN01164135
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-14                AC127348.4         80490-80503
+            15-236              AK148116.1         2-223
+            237-384             AK145902.1         2-149
+            385-385             BC068161.1         93-93
+            386-1061            AK145902.1         151-826
+            1062-1062           BC068161.1         770-770
+            1063-1870           AK145902.1         828-1635
+            1871-1887           AI839008.1         1-17                c
+FEATURES             Location/Qualifiers
+     source          1..1887
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="C57BL/6"
+                     /db_xref="taxon:10090"
+                     /chromosome="7"
+                     /map="7 77.26 cM"
+     gene            1..1887
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /note="uroporphyrinogen III synthase"
+                     /db_xref="GeneID:22276"
+                     /db_xref="MGI:MGI:98917"
+     exon            1..372
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            373..512
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    381..383
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /note="upstream in-frame stop codon"
+     CDS             450..1247
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /EC_number="4.2.1.75"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     uroporphyrinogen-III cosynthetase; uroporphyrinogen-III
+                     cosynthase; URO-synthase; hydroxymethylbilane hydrolyase
+                     (cyclizing)"
+                     /codon_start=1
+                     /product="uroporphyrinogen-III synthase isoform 1"
+                     /protein_id="NP_001289014.1"
+                     /db_xref="CCDS:CCDS21934.1"
+                     /db_xref="GeneID:22276"
+                     /db_xref="MGI:MGI:98917"
+                     /translation="MKVLLLKDAKEDDSGLDPYIQELRLCGLEATLIPVLSFEFMSLP
+                     SLSEKLSHPEGFGGLIFTSPRAVEAVKLCLEKDNKTEAWEKSLKDRWNAKSVYVVGSA
+                     TASLVNKIGLDAEGAGSGNAEKLAEYICSKPSSELPLLFPCGTIKGDTLPKMLKDKGI
+                     PMESMHVYQTVPHPGIQGSLKSYYEDQGIPASITFFSPSGLKYSLEYIQALSGSSFDQ
+                     IKFIAIGPSTTRAMAAKGLPVSCTAESPTPQALAAGIRNVLKPNHCC"
+     exon            513..596
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            597..693
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            694..768
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            769..843
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            844..924
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            925..1010
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1011..1109
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1110..1871
+                     /gene="Uros"
+                     /gene_synonym="UROIIIS; Uros3"
+                     /inference="alignment:Splign:2.1.0"
+ORIGIN      
+        1 gactcggggg agacagtaag cacaaggtct ccgcggatcc ggcgcgacta gaaagctccg
+       61 gggttgagtc ccactggact aatctgctaa attgcttcct ccttggggcc gattgcctag
+      121 ccttctcttc ctctctccat cctcccatct tcctcattct ctcctaatct ccccctctgt
+      181 gtgtagtggt ttggcccatc cgtctgcgtt ccttccgccg gcgcctggac gcccctgtgc
+      241 gagcacagcc agatgtgggt cagtggcctc ggatcctcgg gtctgaggta cgagcatggg
+      301 gagcgctagc cgggtgagag gccgctctcg gttatctcgg cgtgcaggtt gtcctgcctc
+      361 ttagcccgcg aggaacagtc tgagatctaa gtaagatcca tttcctcgct ctgccgcagc
+      421 agcgtctttt agaaggactg ccaggcacaa tgaaggttct cttactaaaa gacgccaagg
+      481 aggatgacag cggcctggat ccatatatcc aggagctgcg attgtgtggc ctagaagcca
+      541 cactgattcc tgtgctgtca tttgagttta tgtctctccc cagtttgtca gaaaagctgt
+      601 ctcatcctga aggctttgga ggactcattt tcaccagccc cagggcagtg gaagcagtga
+      661 agctgtgttt ggagaaggac aataaaactg aagcctggga gaagtctctg aaagacagat
+      721 ggaatgccaa gtctgtgtac gtggttggaa gtgccaccgc ttctctagtg aataaaattg
+      781 gtctggatgc agaaggagcg ggcagtggaa atgcagaaaa gcttgctgaa tatatttgct
+      841 caaagccatc ttcagagctg cctcttctct ttccgtgtgg aactatcaaa ggagatactc
+      901 ttccaaaaat gctcaaggac aaagggatcc ccatggaaag catgcatgtc tatcagacag
+      961 ttccacaccc tgggatccaa gggagcctga agagctacta tgaagatcag ggtatcccag
+     1021 ccagcatcac gtttttcagt ccctccggcc ttaaatacag cctcgagtat attcaggcgt
+     1081 tatctggcag cagctttgac cagattaagt ttatagccat tggccccagt acaacccgtg
+     1141 ctatggctgc taagggcctg cctgtgagct gcactgcaga gagccccaca ccacaagccc
+     1201 tggctgcagg catcaggaat gtgctgaagc caaaccactg ttgctgaggg ctgtgcagag
+     1261 ccagctcctt ccctgtgcac gggacagctc actgcctcta ggatggaacg cagattcgga
+     1321 gagatctgga gaagctgcct gtgagcatgt caccgtcctc catggagtcc agcttggagc
+     1381 ctacgccagg ttcactggcc attaggtcac tgccattcga cacaggggga gagaaagctt
+     1441 cctgggtcta gaaagaagga actgaaatcg accatgtggt gacttgtgcc cactctttta
+     1501 caaactgtat ttcttttatg tttatcggtg tcttgtctgc atgtacatct gtgtgccctg
+     1561 tgcatagcca gtgcctggag aagcaaagta agggtggcag atcccctcga actagagtta
+     1621 gagacatctg tgagctgcca tccaggtact gggaattgaa cccaggtcct ctgaaagaat
+     1681 aagtactctc aaccactgag ccataactcc agcctactat tatcatctgt ggttctcagt
+     1741 gcaaagtggt gttctgggac aacagaacat cataggctct ctgatgctga cctgataaga
+     1801 atgataaatc gctatgtgtg aagtagattt agtcatcata aattaaataa ataaataaat
+     1861 aataaatagg aaaaaaaaaa aaaaaaa
+//
+

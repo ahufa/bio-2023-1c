@@ -1,0 +1,118 @@
+LOCUS       NM_001113852            1061 bp    mRNA    linear   VRT 22-DEC-2019
+DEFINITION  Xenopus tropicalis uroporphyrinogen III synthase (uros), mRNA.
+ACCESSION   NM_001113852
+VERSION     NM_001113852.1
+KEYWORDS    RefSeq.
+SOURCE      Xenopus tropicalis (tropical clawed frog)
+  ORGANISM  Xenopus tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Silurana.
+REFERENCE   1  (bases 1 to 1061)
+  AUTHORS   Klein SL, Strausberg RL, Wagner L, Pontius J, Clifton SW and
+            Richardson P.
+  TITLE     Genetic and genomic tools for Xenopus research: The NIH Xenopus
+            initiative
+  JOURNAL   Dev. Dyn. 225 (4), 384-391 (2002)
+   PUBMED   12454917
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BC155998.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC155998.1, CX409366.2 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMD00028290, SAMD00028295
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1061
+                     /organism="Xenopus tropicalis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /chromosome="7"
+                     /map="7"
+     gene            1..1061
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /note="uroporphyrinogen III synthase"
+                     /db_xref="GeneID:100135131"
+                     /db_xref="Xenbase:XB-GENE-999530"
+     exon            1..75
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     misc_feature    51..53
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /note="upstream in-frame stop codon"
+     exon            76..152
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     CDS             90..878
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /EC_number="4.2.1.75"
+                     /codon_start=1
+                     /product="uroporphyrinogen-III synthase"
+                     /protein_id="NP_001107324.1"
+                     /db_xref="GeneID:100135131"
+                     /db_xref="Xenbase:XB-GENE-999530"
+                     /translation="MKVLLLKDPKTKDLASDPYVKELSSYGLQATLIPVLSFKFVSLD
+                     HFFDKLSHPESYAGLIFTSPRAVEAVKLCLQTPDHKEAWNDRLCAKWNSKPVYVVGKA
+                     TASLVEEIGLSSEGEGSGNAEKLAECICSKGLSYSAPILFPCGSLKREVLPKKLQEKK
+                     VPLETITVYQTAPHPAVQDSLMNYFTKEGVPASVVFFSPSGVKYCLKFLKDLPNDQLN
+                     QIKFGAIGPTTAEAMAEEGIPVSCTALNPTPQDLAIGIKQADMQ"
+     exon            153..236
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            237..333
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            334..408
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            409..483
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            484..567
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            568..650
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            651..752
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+     exon            753..1048
+                     /gene="uros"
+                     /gene_synonym="uro3s"
+                     /inference="alignment:Splign:2.0.8"
+ORIGIN      
+        1 aacatgtctg acagcgggtg agtgaggaga gggctcatgg aagctgagtg tgagtgagcc
+       61 ctgaattcct gacagggtcc atctctacaa tgaaggtttt attactgaaa gaccccaaaa
+      121 ctaaggattt ggcttcagat ccatatgtta aggaattgtc atcgtatgga ttacaggcaa
+      181 cattaattcc cgtgttatcc ttcaaatttg tgtccctgga tcatttcttt gacaagcttt
+      241 cccacccaga gagttatgct ggtctcatat ttaccagccc aagagcagta gaagccgtga
+      301 aattatgttt gcaaacaccc gatcataaag aagcttggaa tgaccggctc tgtgccaagt
+      361 ggaattctaa acccgtttat gtggttggca aagctacagc ctctttggtt gaagagattg
+      421 gcctttcgtc agaaggagaa gggtcaggaa atgcagaaaa gcttgcggaa tgtatctgct
+      481 caaagggatt atcgtattct gcacccattc tttttccttg tggatctttg aaaagagagg
+      541 ttcttcctaa aaaacttcaa gaaaaaaagg tacctctaga gaccattacg gtttatcaga
+      601 ctgccccgca tcctgccgta caagactctc ttatgaatta tttcactaag gaaggtgtcc
+      661 cagcaagtgt tgtgttcttt agtccgtctg gagtaaaata ttgtctcaag tttctcaagg
+      721 acctacctaa tgatcagctt aatcaaataa agtttggcgc cattggccct acaactgcgg
+      781 aagcaatggc cgaagaaggc atcccggtgt catgcactgc tctgaacccc acgcctcagg
+      841 acttagcaat aggaataaag caagctgaca tgcaataaaa atgctaattg ggcttgatgg
+      901 accttctgcc aagtgcggcg tgagtgagct tcgtgatgaa aggttatcga ttccctgcaa
+      961 cttcttggga aagtctgtac tgagttaaat aatggtgcaa taaaatgctg actccaaggg
+     1021 taactgtcat tgaacatgtc aactgcaaaa aaaaaaaaaa a
+//
+
