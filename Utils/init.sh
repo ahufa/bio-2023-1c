@@ -2,4 +2,4 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y perl bioperl ncbi-blast+
+sudo apt install -y perl bioperl ncbi-blast+ jemboss
