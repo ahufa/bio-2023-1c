@@ -20,7 +20,7 @@ File::Path::make_path("result");
 
 save_sequence_to_fasta();
 to_alignment();
-unlink 'result/temporary_fasta_concatenation.fsa';
+#unlink 'result/temporary_fasta_concatenation.fsa';
 
 sub save_sequence_to_fasta {
 

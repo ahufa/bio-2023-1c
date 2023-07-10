@@ -10,15 +10,18 @@ Archivo de secuencias Genbank (ej. NMxxxx.gbk con una o más secuencias)
 
 ## Output
 
-Archivo de secuencias Fasta de cada ORF (ej. Xxxxx.fas con una o más secuencias de
-aminoácidos)
+Archivo de secuencias Fasta de cada ORF (ej. Xxxxx.fas con una o más secuencias de aminoácidos)
 
 ## Ejecucion
 
 ```sh
-perl main.pl sequence.gb sequence2.gb sequence3.gb sequence4.gb
+perl main.pl sequence.gb
 ```
 
 ## Resultados
 
 Los resultados de la operacion se encontraran en una nueva carpeta con el nomnbre result
+
+## Aclaracion
+
+Para poder identificar cual es el marco de lectura correcto se puede ejecutar el ejercicio 2 pasandole como input el outtput de este script y asi evaluar el resultado del blast. El marco que que haya encontrado la secuecia de referencia tendra el marco de lectura correcto

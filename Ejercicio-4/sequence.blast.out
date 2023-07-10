@@ -1,0 +1,360 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot
+           481,450 sequences; 182,865,391 total letters
+
+
+
+Query= NM_000375 Homo sapiens uroporphyrinogen III synthase (UROS),
+transcript variant 2, mRNA.
+
+Length=442
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+P10746.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROII...  504     1e-179
+P51163.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROII...  390     1e-134
+P87214.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROII...  80.5    6e-16 
+P06174.2 RecName: Full=Uroporphyrinogen-III synthase; Short=UROII...  67.8    2e-11 
+Q59335.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROS;...  49.7    2e-05 
+Q8KCJ3.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROS;...  48.9    3e-05 
+B8MV59.1 RecName: Full=Patially reducing polyketide synthase tpeA...  35.4    1.2   
+Q42881.1 RecName: Full=1-aminocyclopropane-1-carboxylate synthase...  33.5    3.5   
+Q3AWP4.2 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; ...  32.7    6.2   
+O17586.1 RecName: Full=Proteasome subunit alpha type-6; AltName: ...  32.0    7.6   
+P32017.1 RecName: Full=Collagen alpha-3(IX) chain; Flags: Precurs...  32.7    7.7   
+Q0I8G1.1 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; ...  32.3    8.7   
+B8HPG4.1 RecName: Full=Bifunctional purine biosynthesis protein P...  32.3    9.7   
+
+
+>P10746.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROIIIS; Short=UROS; 
+AltName: Full=Hydroxymethylbilane hydrolyase [cyclizing]; 
+AltName: Full=Uroporphyrinogen-III cosynthase [Homo 
+sapiens]
+Length=265
+
+ Score = 504 bits (1299),  Expect = 1e-179, Method: Compositional matrix adjust.
+ Identities = 265/265 (100%), Positives = 265/265 (100%), Gaps = 0/265 (0%)
+
+Query  86   MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVlsfeflslpsfseklsHPEDYGGLI  145
+            MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVLSFEFLSLPSFSEKLSHPEDYGGLI
+Sbjct  1    MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVLSFEFLSLPSFSEKLSHPEDYGGLI  60
+
+Query  146  FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCG  205
+            FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCG
+Sbjct  61   FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCG  120
+
+Query  206  NAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNL  265
+            NAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNL
+Sbjct  121  NAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNL  180
+
+Query  266  NSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVS  325
+            NSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVS
+Sbjct  181  NSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVS  240
+
+Query  326  CTAESPTPQALATGIRKALQPHGCC  350
+            CTAESPTPQALATGIRKALQPHGCC
+Sbjct  241  CTAESPTPQALATGIRKALQPHGCC  265
+
+
+>P51163.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROIIIS; Short=UROS; 
+AltName: Full=Hydroxymethylbilane hydrolyase [cyclizing]; 
+AltName: Full=Uroporphyrinogen-III cosynthase [Mus 
+musculus]
+Length=265
+
+ Score = 390 bits (1002),  Expect = 1e-134, Method: Compositional matrix adjust.
+ Identities = 206/265 (78%), Positives = 231/265 (87%), Gaps = 0/265 (0%)
+
+Query  86   MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVlsfeflslpsfseklsHPEDYGGLI  145
+            MKVLLLKDAKEDD G DPYI+EL L GLEATLIPVLSFEF+SLPS SEKLSHPE +GGLI
+Sbjct  1    MKVLLLKDAKEDDSGLDPYIQELRLCGLEATLIPVLSFEFMSLPSLSEKLSHPEGFGGLI  60
+
+Query  146  FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCG  205
+            FTSPRAVEA +LCLE++NKTE WE+SLK++WNAKSVYVVG+ATASLV+KIGLD EG   G
+Sbjct  61   FTSPRAVEAVKLCLEKDNKTEAWEKSLKDRWNAKSVYVVGSATASLVNKIGLDAEGAGSG  120
+
+Query  206  NAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNL  265
+            NAEKLAEYICS+ SS LPLLFPCG +K + LPK LKDKGI MES+ VYQTV HPGIQG+L
+Sbjct  121  NAEKLAEYICSKPSSELPLLFPCGTIKGDTLPKMLKDKGIPMESMHVYQTVPHPGIQGSL  180
+
+Query  266  NSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVS  325
+             SYY  QG+PASITFFSPSGL YSL++IQ LSG + DQIKF AIGP+T RA+AA+GLPVS
+Sbjct  181  KSYYEDQGIPASITFFSPSGLKYSLEYIQALSGSSFDQIKFIAIGPSTTRAMAAKGLPVS  240
+
+Query  326  CTAESPTPQALATGIRKALQPHGCC  350
+            CTAESPTPQALA GIR  L+P+ CC
+Sbjct  241  CTAESPTPQALAAGIRNVLKPNHCC  265
+
+
+>P87214.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROIIIS; Short=UROS; 
+AltName: Full=Hydroxymethylbilane hydrolyase [cyclizing]; 
+AltName: Full=Uroporphyrinogen-III cosynthase [Schizosaccharomyces 
+pombe 972h-]
+Length=251
+
+ Score = 80.5 bits (197),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 71/244 (29%), Positives = 111/244 (45%), Gaps = 21/244 (9%)
+
+Query  102  DPYIRELGLYGLEATLIPVlsfeflslpsfseklsH-PEDYGGLIFTSPRAVEAAELCLE  160
+            DPY+     YG +   IPVL  + +      +KL +  + Y GLI TS R  E  +  L+
+Sbjct  15   DPYVEAFEKYGRDTAFIPVLRHKRVHEEQLRDKLKNVRKTYCGLIVTSQRVSETLDEALK  74
+
+Query  161  QNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLD-TEGETCGNAEKLAEYI---CS  216
+            Q ++TE  ++ L E      ++ VG AT   + ++G   T G+ CG  E LA+ I    +
+Sbjct  75   QEDETE-RQKILMET----PIFTVGPATDDSIRRLGFQQTHGKDCGRGEVLADLIEEWYT  129
+
+Query  217  RESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNLNSYYSQQGVPA  276
+                  PLLF  G   R+I+ + L D  +  +S+ VY T      +  +     +     
+Sbjct  130  TTKQHKPLLFLVGEKHRDIIQRKLGDDRV--DSLIVYATQELENTETQIKDTIRKHPTID  187
+
+Query  277  SITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVSCTAESPTPQAL  336
+             I  FSP+ +   L         N  ++K A IGPTT   L   G   +  + +P P++L
+Sbjct  188  WIVAFSPTSICSLL---------NTFELKIATIGPTTGDYLKKLGTQPNVVSPAPNPESL  238
+
+Query  337  ATGI  340
+            A+ I
+Sbjct  239  ASSI  242
+
+
+>P06174.2 RecName: Full=Uroporphyrinogen-III synthase; Short=UROIIIS; Short=UROS; 
+AltName: Full=Hydroxymethylbilane hydrolyase [cyclizing]; 
+AltName: Full=Uroporphyrinogen-III cosynthase [Saccharomyces 
+cerevisiae S288C]
+Length=275
+
+ Score = 67.8 bits (164),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 60/218 (28%), Positives = 94/218 (43%), Gaps = 35/218 (16%)
+
+Query  144  LIFTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTE--G  201
+            +I TS R VE+    +     +E      K    +K+VY VG ATA+ + + G      G
+Sbjct  65   IIITSQRTVESLNEAIIPTLTSE-----QKAALLSKTVYTVGPATANFIRRSGFINVKGG  119
+
+Query  202  ETCGNAEKLAEYICSRESSALP------LLFPCGNLKREILPKALKDKGIAMESITVYQT  255
+            E  GN   LA+ I    S+ +       LLF  G ++R+I+PK L  KGI +  +  Y+T
+Sbjct  120  EDAGNGSILADIIIDDLSTDIKACPPSELLFLVGEIRRDIIPKKLHSKGIKVREVVTYKT  179
+
+Query  256  ---------VAHPGIQGNLNSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNI----D  302
+                       H   + + +  +S       +  FSP G     K I +  GD+      
+Sbjct  180  EELSDGFKRFIHAMKECDEDEVFSDW-----VVVFSPQG----TKEITQYLGDSNRLPGS  230
+
+Query  303  QIKFAAIGPTTARALAAQGLPVSCTAESPTPQALATGI  340
+             ++ A+IGPTT + L    +     +  P P++L   I
+Sbjct  231  HLRVASIGPTTKKYLDDNDVTSDVVSPKPDPKSLLDAI  268
+
+
+>Q59335.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROS; AltName: 
+Full=Hydroxymethylbilane hydrolyase [cyclizing]; AltName: 
+Full=Uroporphyrinogen-III cosynthase [Chlorobaculum parvum 
+NCIB 8327]
+Length=246
+
+ Score = 49.7 bits (117),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 68/264 (26%), Positives = 113/264 (43%), Gaps = 22/264 (8%)
+
+Query  86   MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVlsfeflslpsfseklsHPEDYGGLI  145
+            MK +L+   K       P++REL  YGL   + P +    ++  +  +       + G+ 
+Sbjct  1    MKTVLVTRPKHQAA---PFVRELEQYGLSTVVFPTIEIRPVAGWNVPDLTK----FAGIF  53
+
+Query  146  FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTE-GETC  204
+            FTSP +V+     L Q    E+  ++L++      V+ VG  T   + K G+  E     
+Sbjct  54   FTSPNSVQFFLKHLLQTAPDEL--KNLQQT----RVWAVGKTTGQDLEKHGVSIEPLPKI  107
+
+Query  205  GNAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGN  264
+             +A  L   I   E      LF  G+L    +P+ + + G     +TVY+ +  P ++  
+Sbjct  108  ADAVNLMADIDPAEIKGQTFLFVRGSLSLGTIPELIAEFGGTCVELTVYENLP-PSLEDT  166
+
+Query  265  LN-SYYSQQGVPASITFFSPSGLTYSLKHI--QELSGDNIDQIKFAAIGPTTARALAAQG  321
+                    +G    ++F SPS      + I  +ELS    D ++ AAIG TT+ AL   G
+Sbjct  167  QRVKDMLAEGKLDCLSFTSPSTAKNFFEAIGSKELS----DSVQIAAIGTTTSGALEKMG  222
+
+Query  322  LPVSCTAESPTPQALATGIRKALQ  345
+            + V    E     + A  I +AL+
+Sbjct  223  IKVDIIPEYFDGPSFAKAIAEALK  246
+
+
+>Q8KCJ3.1 RecName: Full=Uroporphyrinogen-III synthase; Short=UROS; AltName: 
+Full=Hydroxymethylbilane hydrolyase [cyclizing]; AltName: 
+Full=Uroporphyrinogen-III cosynthase [Chlorobaculum tepidum 
+TLS]
+Length=246
+
+ Score = 48.9 bits (115),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 69/264 (26%), Positives = 112/264 (42%), Gaps = 24/264 (9%)
+
+Query  86   MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVlsfeflslpsfseklsHPEDYGGLI  145
+            MK +L+   K      +P++REL  YGL++ + P +    ++  S  +       + G+ 
+Sbjct  1    MKTVLVTRPKHQ---AEPFVRELAQYGLDSVVFPTIEIRPVTGWSVPDLTR----FAGIF  53
+
+Query  146  FTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKS--VYVVGNATASLVSKIGLDTE-GE  202
+            FTSP +V   +  LE+     + E S  E  N +   V+ VG  T   + K G+  E   
+Sbjct  54   FTSPNSV---QFFLER-----LLEESPDELPNLQQARVWAVGKTTGGDLEKHGVSIEPLP  105
+
+Query  203  TCGNAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQ  262
+               +A  L   I + E      LF  G+L    +P+ +  +G     +TVY  +  P ++
+Sbjct  106  KSADAVSLMSGIDASEIEGKTFLFVRGSLSLGTIPEVIAKRGGICVELTVYDNI-QPSLE  164
+
+Query  263  --GNLNSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQ  320
+                + S  + +G    ++F SPS      + I   S +    +  AAIG TT+ AL   
+Sbjct  165  ETQKIKSLLT-EGKIDCLSFTSPSTAINFFEAID--SKEVPSDVLIAAIGTTTSSALEKL  221
+
+Query  321  GLPVSCTAESPTPQALATGIRKAL  344
+            G+ V    E       A  I  AL
+Sbjct  222  GVKVDIIPEYFDGPNFAKAIAAAL  245
+
+
+>B8MV59.1 RecName: Full=Patially reducing polyketide synthase tpeA; Short=R-PKS 
+tpeA; AltName: Full=Polyesters biosynthesis cluster 
+protein A [Talaromyces stipitatus ATCC 10500]
+Length=2521
+
+ Score = 35.4 bits (80),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 27/103 (26%), Positives = 47/103 (46%), Gaps = 7/103 (7%)
+
+Query  182   YVVGNATASLVSKIGLDTEGETCGNAEKLAEYICSRESSALPLLFPCGNLKREILPKALK  241
+             Y   +   S+++KIG+D+E      +  L E +   ESS   +LF  G     ++ K  K
+Sbjct  2393  YYFDDPRFSIMAKIGMDSENSDTQASVSLKELLADAESSDDAVLFVTG----AVISKVAK  2448
+
+Query  242   DKGIAMESITVYQTVAHPGIQGNLNSYY---SQQGVPASITFF  281
+                +A E I   +++   G+   +   Y   +++ V A IT F
+Sbjct  2449  LMQVAEEEIDTGKSLHAYGVDSLVAVEYVSWAKKEVSADITVF  2491
+
+
+>Q42881.1 RecName: Full=1-aminocyclopropane-1-carboxylate synthase 3; Short=ACC 
+synthase 3; AltName: Full=Le-ACS3; Short=ACS-3; AltName: 
+Full=S-adenosyl-L-methionine methylthioadenosine-lyase 
+3 [Solanum lycopersicum]
+Length=469
+
+ Score = 33.5 bits (75),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 16/33 (48%), Positives = 20/33 (61%), Gaps = 1/33 (3%)
+
+Query  139  EDYGGLIFTSPRAVEAAELCLEQNN-KTEVWER  170
+            E Y G +F SP  V   E+ +E+N  KT VWER
+Sbjct  231  EIYSGTVFNSPGFVSVMEVLIEKNYMKTRVWER  263
+
+
+>Q3AWP4.2 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; Short=GSA; 
+AltName: Full=Glutamate-1-semialdehyde aminotransferase; 
+Short=GSA-AT [Synechococcus sp. CC9902]
+Length=428
+
+ Score = 32.7 bits (73),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 28/94 (30%), Positives = 45/94 (48%), Gaps = 4/94 (4%)
+
+Query  321  GLPVSCTAESPT-PQALATGIRKALQPHGCCVSHLALAPCSLPGLGWLWMEPGIGKGSRE  379
+            G+P S TA + T P      ++     +   +S + L P  +   G++  EPG  +G RE
+Sbjct  169  GVPRSTTANTLTAPYNDLEAVKALFAENPDAISGVILEPI-VGNAGFIQPEPGFLEGLRE  227
+
+Query  380  LLPSDSCLKPEWKHLRTGDRDLTWGWPQAHVHVT  413
+            L   +  L   +  + TG R +++G  QAH  VT
+Sbjct  228  LTKENGALLV-FDEVMTGFR-ISYGGAQAHFGVT  259
+
+
+>O17586.1 RecName: Full=Proteasome subunit alpha type-6; AltName: Full=Proteasome 
+subunit alpha 1 [Caenorhabditis elegans]
+Length=246
+
+ Score = 32.0 bits (71),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 24/87 (28%), Positives = 34/87 (39%), Gaps = 18/87 (21%)
+
+Query  270  SQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVSCTA-  328
+            S  G    IT FSP G  Y +++             F AI  T   A+A +G   +  A 
+Sbjct  5    SSAGFDRHITIFSPEGRVYQVEY------------AFKAINSTNLTAVAVKGADAAVIAV  52
+
+Query  329  ESPTPQAL-----ATGIRKALQPHGCC  350
+            +   P +L      T + +  Q  GCC
+Sbjct  53   QKRVPDSLIVADTVTSVYQISQSVGCC  79
+
+
+>P32017.1 RecName: Full=Collagen alpha-3(IX) chain; Flags: Precursor [Gallus 
+gallus]
+Length=675
+
+ Score = 32.7 bits (73),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 21/53 (40%), Positives = 27/53 (51%), Gaps = 3/53 (6%)
+
+Query  255  TVAHPGIQGNLN--SYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNI-DQI  304
+            T   PGI G+     +  +QGVP       P G   S +HI+EL G+ I DQI
+Sbjct  481  TAGAPGIPGHPGPMGHQGEQGVPGITGKPGPPGKEASEQHIRELCGEMINDQI  533
+
+
+>Q0I8G1.1 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; Short=GSA; 
+AltName: Full=Glutamate-1-semialdehyde aminotransferase; 
+Short=GSA-AT [Synechococcus sp. CC9311]
+Length=438
+
+ Score = 32.3 bits (72),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 27/94 (29%), Positives = 46/94 (49%), Gaps = 4/94 (4%)
+
+Query  321  GLPVSCTAESPT-PQALATGIRKALQPHGCCVSHLALAPCSLPGLGWLWMEPGIGKGSRE  379
+            G+P S TA + T P      +++    +   ++ + L P  +   G++  EPG  +G RE
+Sbjct  179  GVPRSTTANTLTAPYNDLESVKQLFAENPDAIAGVILEPI-VGNAGFIQPEPGFLEGLRE  237
+
+Query  380  LLPSDSCLKPEWKHLRTGDRDLTWGWPQAHVHVT  413
+            L   +  L   +  + TG R +++G  QAH  VT
+Sbjct  238  LTKENGALLV-FDEVMTGFR-ISYGGAQAHFGVT  269
+
+
+>B8HPG4.1 RecName: Full=Bifunctional purine biosynthesis protein PurH; 
+Includes: RecName: Full=Phosphoribosylaminoimidazolecarboxamide 
+formyltransferase; AltName: Full=AICAR transformylase; Includes: 
+RecName: Full=IMP cyclohydrolase; AltName: Full=ATIC; 
+AltName: Full=IMP synthase; AltName: Full=Inosinicase [Cyanothece 
+sp. PCC 7425]
+Length=514
+
+ Score = 32.3 bits (72),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 55/141 (39%), Gaps = 10/141 (7%)
+
+Query  293  IQELSGDNIDQIKFAAIGPT-TARALAAQGLPVSCTAESPTPQALATGIRKALQP--HGC  349
+            + E +   +++  F  I    TA+AL A GLPV+  A+      +  G  K L P  HG 
+Sbjct  15   VVEFARSLVNEFGFQLISSGGTAKALIAAGLPVTKVADYTGSPEILGGRVKTLHPRIHGG  74
+
+Query  350  CVSHLALAPCSLPGLGWLWMEP------GIGKGSRELLPSDSCLKPEWKHLRTGDRDLTW  403
+             ++   L P  L  L    +EP       +    + +   D  L    + +  G   L  
+Sbjct  75   ILARRDL-PTDLQDLAATGIEPIDLVVVNLYPFEQTIAQPDMTLSDAIEQIDIGGPALLR  133
+
+Query  404  GWPQAHVHVTALCGSQLKPPC  424
+               +   HVT LC  +   PC
+Sbjct  134  ASAKNFAHVTVLCSPEQYGPC  154
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 40279427902
+
+
+  Database: swissprot
+    Posted date:  Jul 9, 2023  6:51 PM
+  Number of letters in database: 182,865,391
+  Number of sequences in database:  481,450
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

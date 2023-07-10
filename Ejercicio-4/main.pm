@@ -12,7 +12,7 @@ my $searchio = new Bio::SearchIO(
 
 my $pattern = $ARGV[1];
 
-my $file = '>resultados/blast_report_hits.fsa';
+my $file = '>result/blast_report_hits.fsa';
 my $seqout = Bio::SeqIO->new(-file => $file,
                              -format => 'Fasta');
 
